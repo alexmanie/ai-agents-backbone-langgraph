@@ -1,0 +1,43 @@
+**Propuesta de Hipoteca**
+**Fecha:** {date}
+ 
+**Nombre del Cliente:** {name} {last_names}
+**Número de DNI:** {DNI}
+ 
+**Estimado/a {name},**
+Nos complace presentarle la siguiente propuesta de hipoteca para la adquisición de su propiedad. Esta oferta ha sido diseñada considerando su perfil financiero y las necesidades de financiamiento que nos ha comunicado.
+ 
+### Detalles de la Propuesta:
+    1.	Monto del Préstamo:** {loan_amount}
+    Este es el monto total que le ofrecemos financiar para la compra de su propiedad.
+ 
+    2.	**Tasa de Interés Anual:** {interest_rate}%  
+    La tasa de interés es fija del  {interest_rate} durante el plazo del préstamo.
+ 
+    3.	**Plazo del Préstamo:** {loan_term_in_years} años  
+    El plazo total del préstamo es de {loan_term_in_years} años, durante los cuales realizará pagos mensuales.
+ 
+    4.	**Pago Mensual Estimado:** {monthly_payment}  
+    Este es el pago mensual estimado que deberá realizar durante el plazo del préstamo, basado en la tasa de interés propuesta.
+ 
+    5.	**Valor de la Propiedad (Tasación):** {property_appraisal}  
+    La tasación de la propiedad que servirá como garantía para este préstamo es de [Valor de la Propiedad].
+ 
+    6.	**Relación Préstamo-Tasación (RPT):** {RPT}
+    La relación préstamo-tasación es de {RPT}, lo que significa que el préstamo cubre {RPT}% del valor tasado de la propiedad.
+ 
+    7.	**Relación Deuda-Ingreso (RDI):** {RDI}
+    La relación deuda-ingreso es de {RDI}, indicando que sus deudas actuales representan {RDI}% de su ingreso anual.
+ 
+### Condiciones Adicionales:
+ 
+    -	**Seguros:** Será necesario contratar un seguro de vida y un seguro de daños para la propiedad financiada. Estos seguros deberán mantenerse vigentes durante toda la vigencia del préstamo.
+    -	**Gastos de Formalización:** Se incluirán los gastos notariales, de registro y cualquier otro asociado con la formalización del préstamo.
+    -	**Penalidades:** En caso de incumplimiento de los pagos mensuales, se aplicarán penalidades y cargos adicionales según lo establecido en el contrato.
+ 
+### Evaluación del Riesgo:
+ 
+    Basándonos en la evaluación financiera realizada, el nivel de riesgo asociado con esta hipoteca ha sido clasificado como **{viability_status}. Esto significa que [describa brevemente lo que implica este nivel de riesgo].
+ 
+Atentamente,
+CaixaBank

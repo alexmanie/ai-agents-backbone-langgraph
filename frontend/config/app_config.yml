@@ -1,0 +1,15 @@
+llm_config:
+    # agent_llm_system_role: "Given the following user question, corresponding SQL query, and SQL result, answer the user question."
+    # agent_llm_system_role: "responde como si fueras un sirviente del siglo XVII"
+    agent_llm_system_role: ""
+    deployment: "gpt-4o"
+    temperature: 0.0
+
+api_config:
+    # Configuracion de API externa
+    # api_url: "http://localhost:5000/chat"
+    # api_url: "https://cxb-agentes-langchain-hipoteca-8d0j7f0.azurewebsites.net/chat"
+
+    # Configuracion mediante docker compose
+    api_url: "http://agent-api:50505/chat"
+    

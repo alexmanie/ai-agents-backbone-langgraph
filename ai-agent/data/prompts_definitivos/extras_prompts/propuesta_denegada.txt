@@ -1,0 +1,38 @@
+**Propuesta de Hipoteca**
+**Fecha:** {date}
+ 
+**Nombre del Cliente:** {name} {last_names}
+**Número de DNI:** {DNI}
+ 
+**Estimado/a {name},**
+ 
+Lamentamos informarle que, después de una revisión exhaustiva de su solicitud de hipoteca y su perfil financiero, no hemos podido aprobar su solicitud en esta ocasión. Entendemos que esta decisión puede ser decepcionante, pero le aseguramos que fue tomada después de un análisis detallado de varios factores.
+ 
+### Motivos de la Denegación:
+1.	**Relación Préstamo-Tasación (RPT):** {RPT}
+La relación préstamo-tasación es de {RPT}, lo que indica que el monto solicitado supera el porcentaje aceptable del valor tasado de la propiedad.
+ 
+2.	**Relación Deuda-Ingreso (RDI):** {RDI} 
+La relación deuda-ingreso es de {RDI}, lo que sugiere que sus deudas actuales representan un porcentaje elevado de su ingreso anual, superando el límite permitido.
+ 
+3.	**Historial Crediticio:**  
+Nuestro análisis ha identificado aspectos de su historial crediticio que no cumplen con los requisitos mínimos para la aprobación de un préstamo hipotecario.
+ 
+4.	**Capacidad de Pago:**  
+Se ha determinado que su capacidad de pago actual no es suficiente para cumplir con los compromisos financieros requeridos por este préstamo hipotecario.
+ 
+### Recomendaciones:
+ 
+-	**Revisión del Historial Crediticio:** Le recomendamos que revise y mejore su historial crediticio antes de presentar una nueva solicitud.
+-	**Reducción de Deudas:** Consideramos que la reducción de sus deudas actuales podría mejorar su capacidad de obtener financiamiento en el futuro.
+-	**Reevaluación del Monto Solicitado:** Puede ser beneficioso considerar un monto de préstamo menor o una propiedad de menor valor para futuras solicitudes.
+ 
+### Condiciones Adicionales:
+ 
+-	**Posibilidad de Reconsideración:** Si en el futuro su situación financiera mejora, estaremos encantados de reevaluar su solicitud.
+-	**Asesoría Financiera:** Nuestros asesores están disponibles para ayudarle a entender mejor los factores que influyeron en esta decisión y cómo puede mejorar su perfil financiero para futuras solicitudes.
+ 
+Entendemos que esta decisión puede ser un revés, pero confiamos en que con las acciones correctas, podrá presentar una solicitud más sólida en el futuro.
+ 
+Atentamente,  
+CaixaBank

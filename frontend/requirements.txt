@@ -1,0 +1,9 @@
+fastapi
+gradio
+gunicorn
+python-dotenv
+PyYAML
+requests
+uvicorn
+openai
+pyprojroot

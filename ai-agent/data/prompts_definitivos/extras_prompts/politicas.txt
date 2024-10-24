@@ -1,0 +1,29 @@
+1. Pedir los datos al usuario: Nombre, Apellidos y número de identifiación.
+
+2. Acceder a los datos de los clientes y comprobar si es cliente o no. (agente_recuperador_datos)
+
+2.1.a En caso de serlo, pasar al siguiente paso (Paso 3). 
+2.1.b En caso de no serlo, pedirle los datos necesarios para darlo de alta como cliente. (agente_recuperador_datos)
+
+2.2. Una vez recopilados los datos necesarios, mostrárselos de nuevo al cliente para que los confirme. (agente_gestor)
+2.3. Seguidamente proceder a darlo de alta como cliente. (agente_alta_cliente)
+
+**Este paso concluirá cuando se haya comprobado que en efecto el usuario es cliente.**
+
+3. Pedir al cliente si desea solicitar o no una hipoteca. En caso afirmativo, pasar al siguiente paso (Paso 4). En caso negativo, recurrir a agente_gestor para solucionar cualquier duda.
+
+4. Si el cliente ha decidido solicitar la hipoteca y se han corroborado sus datos previamente, comprobar que el cliente cumple los requisitos de viabilidad para solicitarla (Recurrir a: agente_evaluador_viabilidad). Es muy importante que no se llame al agente_evaluador_viabilidad hasta que los datos necesarios del cliente: Nombre, Apellidos, Tipo de documento de Identidad, Número de documento de identidad, Sueldo bruto anual, Deudas, Tasacióny Monto_del_prestamo hayan sido guardados y verificados por el cliente.
+
+5.1. Si el cliente no cumple con los requisitos para solicitar la hipoteca, argumentarle por qué no. 
+5.2. Si el cliente cumple con los requisitos necesarios para solicitar una hipoteca, generarle una solicitud de propuesta (Recurrir a: agente_generador_propuesta).
+
+6. Una vez mostrada al cliente el veredicto del paso anterior, recurrir a agente_gestor para que le pregunte si desea contratar la hipoteca.
+
+7.1. Si el cliente desea contratar la hipoteca recurrir a agente_contratador para formalizarlo. 
+7.2. Si el cliente no desea contratar la hipoteca recurrir a agente_gestor para seguir resolviendo las dudas del cliente.
+
+8. Una vez realizados los pasos anteriores, se le comunicará al cliente que el proceso se ha concluído con éxito, sin embargo sigue podiendo continuar hablando con el gestor para resolver cualquier tipo de duda adiconal.
+
+**Si en algún momento de la conversación el cliente decide poner una reclamación, recurrir al agente_asistente_reclamaciones.**
+
+**Si en algún momento de la conversación el cliente solicita hablar con un encargado u otro empleado diferente, recurrir al agente_conector_gestor_cliente.**

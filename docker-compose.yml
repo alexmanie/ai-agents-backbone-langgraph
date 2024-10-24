@@ -1,0 +1,27 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: front.Dockerfile
+    container_name: agent-app
+    ports:
+      - 8080:7860
+    depends_on:
+      - agent-api
+    networks:
+      - app-network
+  
+  agent-api:
+    build:
+      context: .
+      dockerfile: agent.Dockerfile
+    container_name: agent-api
+    ports:
+      - 5000:50505
+    networks:
+      app-network:
+        aliases:
+          - agent-network
+  
+networks:
+  app-network:
