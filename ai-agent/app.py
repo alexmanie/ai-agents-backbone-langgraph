@@ -5,6 +5,7 @@ import re
 import json
 import time
 from datetime import datetime
+import html
 
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.runnables import RunnableConfig
@@ -28,6 +29,8 @@ def chat() -> str:
     
     # Get the contents of the request
     conversation_id = request.args.get('conversation_id', default='', type=str)
+    # Sanitize conversation_id to avoid reflected XSS if it is rendered in an HTML context
+    safe_conversation_id = html.escape(conversation_id, quote=True)
     request_data = request.args.get('message', default='', type=str)
     
     HOST = os.getenv('ACCOUNT_HOST')
@@ -225,7 +228,7 @@ def chat() -> str:
         handler.insert_item(memory_item)
     
     
-    return { "conversation_id": conversation_id, "response": response_msg, "output": output }
+    return { "conversation_id": safe_conversation_id, "response": response_msg, "output": output }
 
 
 if __name__ == '__main__':
