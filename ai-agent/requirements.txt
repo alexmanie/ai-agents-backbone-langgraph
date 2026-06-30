@@ -1,6 +1,6 @@
 flask
 langgraph==1.0.10rc1
-langchain-anthropic==0.1.21
+langchain-anthropic==1.4.6
 langchain-community==0.3.27
 langchain-openai==1.1.14
 langchainhub==0.1.20
